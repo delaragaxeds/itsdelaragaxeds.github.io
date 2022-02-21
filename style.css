@@ -424,8 +424,7 @@ section .title::after{
 	height: 450px;
 	width: 450px;
     object-fit: contain;
-	position: relative;
-    margin-left: 60px;
+    margin-left: 80px;
     margin-top: 5px;
 }
 .contact .contact-content .right{
@@ -440,11 +439,12 @@ section .title::after{
 .contact .contact-content .right .row i{
 	background: rgb(14, 118,168);
 	color: #fff;
-    object-fit: contain;
+    object-position: 30px;
 	font-size: 20px;
 	font-weight: 500;
 	padding: 10px 15px;
-	margin-top: 30px;
+	margin-top: 25px;
+    margin-bottom: 17px;
 }
 /* footer section styling */
 footer{
