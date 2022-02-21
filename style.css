@@ -415,19 +415,21 @@ section .title::after{
 }
 .contact .contact-content p{
     position: center;
+    margin-bottom: -40px;
 }
 .contact .contact-content .left{
 	width: 40%;
 }
 .contact .contact-content .left img{
-	height: 500px;
-	width: 500px;
+	height: 400px;
+	width: 400px;
 	object-fit: contain;
-	border-radius: 20px;
-    margin-right: 30px;
+	position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
 }
 .contact .contact-content .right{
-   width: -30%;
+   width: -20%;
    border-radius: 20px;
 }
 .contact .contact-content .right .row span{
@@ -436,12 +438,11 @@ section .title::after{
     justify-content: space-between;
  }
 .contact .contact-content .right .row i{
-    position: center;
 	background: rgb(14, 118,168);
 	color: #fff;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
-	padding: 10px 20px;
+	padding: 10px 15px;
 	margin-top: 30px;
 }
 /* footer section styling */
